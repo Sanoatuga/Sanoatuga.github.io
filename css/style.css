@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Source Serif 4', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #a8d5e2;
+    padding: 15px 0;
+    color: #594f4f;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: smaller;
+}
+
+nav a {
+    color: #594f4f;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.4s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #d1b2a1;
+}
+
+footer {
+    background-color: #ead2ac;
+    padding: 15px 0;
+    color: #594f4f;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #594f4f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.intro-section {
+    font-family: 'Inknut Antiqua', serif;
+    background-color: #e2e8f0;
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+}
+
+.intro-section h1, .intro-section h2 {
+    text-align: center;
+}
+
+.details-section {
+    background-color: #f7e5d4;
+    padding: 20px 30px;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0055aa;
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #0077cc;
+    margin: 50px 0;
+}
+
+#image1 {
+    width: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#image2 {
+    width: 20%;
+    position: absolute;
+    right: 10px;
+}
+
+.card {
+    width: 300px;
+    border: 3px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
